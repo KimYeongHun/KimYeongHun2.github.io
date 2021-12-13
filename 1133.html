@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<title></title>
+<style type = "text/css">
+* {
+	padding:0;
+	margin: 10px;
+}
+li {
+	list=list-style-type: none;
+}
+.clear {
+	clear: both;
+}
+header {
+	width: 995px;
+	height: 110px;
+	margin-top: 10px;
+	border: solid 1px #cccccc; 
+}
+#logo {
+	margin: 20px;
+	border-bottom: dotted 2px gray;
+	float: left;
+}
+#top {
+	float: right;
+	margin: 30px 20px 0 0;
+}
+nav {
+	width: 995px;
+	height: 70px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border: solid 1px #cccccc; 
+}
+nav li{
+	display : inline;
+	margin: 50px 30px;
+}
+section {
+	float: left;
+	margin-top: 10px;
+	border: solid 1px #cccccc;
+}
+aside {
+	float: left;
+	margin-top: 10px;
+	border: solid 1px #cccccc; 
+}
+aside li {
+	margin-bottom: 70px;
+}
+footer {
+	width: 995px;
+	height: 100px;
+	border-top: solid 1px #cccccc;
+	margin-top: 20px;
+	margin-left:  0px;
+	border: solid 1px #cccccc; 
+}
+#address {
+	float: left;
+	margin: 30px 0 0 20px;
+}
+#customer {
+	float: right;
+	margin: 30px 0 0 180px;
+	padding-right: 20px;
+}
+
+#page{
+	width: 1010px;
+	margin: auto;
+	border: solid 1px #cccccc;
+}
+.menu li {clear: both;}
+.second{position: absolute; top :60%; left: 0; display: none;}
+.second li {background:yellow;
+		font-size: 30px;
+		transition-delay: 1s;}
+h1:hover {color: coral;}
+.menu li:hover.second {display: block;}
+</style>
+
+<body id= "page">
+<head>
+   <div id ="logo">
+   글로벌관광 </div>
+   <div id="top">
+   로그인 | 회원가입 | 사이트맵 | 회사소개 | <input type="button" value="메인" onclick="location.href='index.html'"></div>
+</head>
+<div class ="clear"> </div>
+<nav>
+	<ul class="menu">
+		<input type="button" value="추천관광지" onclick="location.href='1122.html'">
+		<ul class= "second">
+		<li>국내</li>
+		<li>해외</li>
+	</ul>
+	    </li>
+		<li>문화 관광 </li>
+		<li>음식/숙박/쇼핑 </li>
+		<li>e-관광안내소 </li>
+		<li>역사/문화 </li>
+		<li>참여마당 </li>
+	</ul>
+</nav>
+<div class ="clear">
+</div>
+<SECTION>
+	<img src ="./img/1.jpg">
+    <img src ="./img/2.jpg">
+	<img src ="./img/3.jpg">
+	<img src ="./img/4.jpg">
+	<img src ="./img/5.jpg">
+</SECTION>
+<div class= "clear">
+<aside>
+<foorter>
+	<div id= "address">
+	대표이사 : 홍길동 | 사업자 등록번호 123-456-7890</div>
+	<div id= "customer">
+	고객센터 : 1588-1234 </div>
+</foorter>
+</aside>
+</body>
+</html>
